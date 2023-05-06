@@ -11,7 +11,7 @@ function Home() {
             <h1 className="heroTitleTop">Jonny</h1>
             <h1 className="heroTitleBottom">Steinberg</h1>
             <p className="heroAuthor">Two-time winner of South Africa's premier non-fiction prize, the Sunday Times Alan Paton Award and an inaugural winner of the Donald Windham-Sandy M. Campbell Literature Prizes.</p>
-            <a href="/books#book1" className="heroLink">Author of Winnie & Nelson: Portrait of a Marriage</a>
+            <a href="/js-website/books#book1" className="heroLink">Author of Winnie & Nelson: Portrait of a Marriage</a>
           </div>
             <div className="heroImage"></div>
             <p className="heroImageText"></p>
@@ -21,12 +21,12 @@ function Home() {
         <div className="latestReleases">
           <h2>Jonny's Latest Books</h2>
           <div className="cardContainer">
-          <BookCard cardId="card2" bookId="book2" bookLink="/books#about-book-2" />
+          <BookCard cardId="card2" bookId="book2" bookLink="/js-website/books#about-book-2" />
           <div className="centerBook">
-            <BookCard cardId="card1" bookId="book1" bookLink="/books#about-book-1" />
-            <a href="/books"><button className="booksLink">See More of Jonny's Books</button></a>
+          <BookCard cardId="card1" bookId="book1" bookLink="/js-website/books#about-book-1" />
+          <a href="/js-website/books"><button className="booksLink">See More of Jonny's Books</button></a>
           </div>
-          <BookCard cardId="card3" bookId="book3" bookLink="/books#about-book-3" />
+          <BookCard cardId="card3" bookId="book3" bookLink="/js-website/books#about-book-3" />
           </div>
         </div>
         <div className="interviewsDiv">

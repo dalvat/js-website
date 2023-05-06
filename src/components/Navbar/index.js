@@ -10,11 +10,11 @@ export default function Navbar() {
       </div>
       <div className="linksdiv">
         <ul className="navlinks">
-          <NavLinks to="/events" name="Events" />
-          <NavLinks to="/books" name="Books" />
-          <NavLinks to="/journalism" name="Journalism" />
-          <NavLinks to="/about" name="About Jonny" />
-          <NavLinks to="/contact" name="Contact" />
+          <NavLinks to="/js-website/events" name="Events" />
+          <NavLinks to="/js-website/books" name="Books" />
+          <NavLinks to="/js-website/journalism" name="Journalism" />
+          <NavLinks to="/js-website/about" name="About Jonny" />
+          <NavLinks to="/js-website/contact" name="Contact" />
         </ul>
       </div>
     </div>
