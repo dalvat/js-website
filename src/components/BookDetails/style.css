@@ -1,28 +1,58 @@
 .bookDetails {
+  margin-bottom: 5rem;
   min-width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-  "image text text text";
+  "image text text buy";
   align-items: flex-start;
   justify-content: flex-start;
 }
 
 .bookDetailsImage {
-  height: 30rem;
-  width: 20rem;
+  height: 20rem;
+  width: 13rem;
   grid-area: image;
-  background-image: url(../../assets/images/winnie-and-nelson.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 3rem;
   margin-right: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
 }
 
+#about-book-1 .bookDetailsImage {
+  background-image: url(../../assets/images/winnie-and-nelson.png);
+}
+
+#about-book-2 .bookDetailsImage {
+  background-image: url(../../assets/images/one-day-in-bethlehem.jpg);
+}
+
+#about-book-3 .bookDetailsImage {
+  background-image: url(../../assets/images/a-man-of-good-hope.jpg);
+}
+
 .bookDetailsText {
-  padding: 2rem;
+  padding-left: 2rem;
   grid-area: text;
-  text-align: left;
+  text-align: justify;
+  text-overflow: clip;
+  white-space: pre-wrap;
+  overflow: hidden;
+}
+
+.bookDetailsLinks {
+  padding-left: 2rem;
+}
+
+.bookDetailsLinks a {
+  color: black;
+  text-decoration: none;
+}
+
+.bookDetailsLinks a:hover {
+  color: black;
+  text-decoration: underline;
 }

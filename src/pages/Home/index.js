@@ -21,12 +21,12 @@ function Home() {
         <div className="latestReleases">
           <h2>Jonny's Latest Books</h2>
           <div className="cardContainer">
-          <BookCard cardId="card2" bookId="book2" bookLink="/books#book2" />
+          <BookCard cardId="card2" bookId="book2" bookLink="/books#about-book-2" />
           <div className="centerBook">
-            <BookCard cardId="card1" bookId="book1" bookLink="/books#book1" />
+            <BookCard cardId="card1" bookId="book1" bookLink="/books#about-book-1" />
             <a href="/books"><button className="booksLink">See More of Jonny's Books</button></a>
           </div>
-          <BookCard cardId="card3" bookId="book3" bookLink="/books#book3" />
+          <BookCard cardId="card3" bookId="book3" bookLink="/books#about-book-3" />
           </div>
         </div>
         <div className="interviewsDiv">
