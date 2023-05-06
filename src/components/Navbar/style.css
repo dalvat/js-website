@@ -1,0 +1,28 @@
+.navbar{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eceae7;
+  height: 5rem;
+}
+
+.navtitle {
+  margin: 0;
+  padding-left: 2rem;
+}
+
+.navlinks {
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.links {
+  padding-right: 1rem;
+  display: block;
+}

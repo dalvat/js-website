@@ -1,0 +1,141 @@
+.heroBanner {
+  height: 60vh;
+  background-color: #eceae7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.heroTitleTop {
+  margin: 0;
+}
+
+.heroTitleBottom {
+  margin: 0;
+}
+
+
+.heroImage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+  width: 30rem;
+  background-image: url("../../assets/images/jonny.jpg");
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+}
+
+.heroImageText {
+  font-size: 0.75rem;
+  text-align: center;
+  width: 12rem;
+}
+
+.latestReleases {
+  padding-top: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #eceae7;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2rem;
+  padding-bottom: 3rem;
+}
+
+.heroAuthor {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.heroLink {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.heroLink:hover {
+  text-decoration: underline;
+}
+
+.booksLink {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 1px solid #eceae7;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+  transition: 0.3s;
+}
+
+.booksLink:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.interviewCard {
+  margin: 2rem;
+  padding: 2rem;
+  height: 12rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eceae7;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+  transition: 0.3s;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.interviewTitle {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.interviewDetails {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.interviewDetails > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.interviewLink {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 1px solid #eceae7;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+  transition: 0.3s;
+}
+
+.interviewLink:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}

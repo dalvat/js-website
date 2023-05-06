@@ -1,0 +1,10 @@
+.link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-li {
+  display: block;
+  padding: 2vh;
+}

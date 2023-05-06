@@ -1,0 +1,28 @@
+.bookDetails {
+  min-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "image text text text";
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.bookDetailsImage {
+  height: 30rem;
+  width: 20rem;
+  grid-area: image;
+  background-image: url(../../assets/images/winnie-and-nelson.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+}
+
+.bookDetailsText {
+  padding: 2rem;
+  grid-area: text;
+  text-align: left;
+}

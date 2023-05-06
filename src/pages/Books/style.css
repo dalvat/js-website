@@ -1,0 +1,10 @@
+.bookList {
+  padding: 0;
+}
+
+.bookList > li {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  padding: 0.25rem;
+}

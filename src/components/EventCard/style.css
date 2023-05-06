@@ -1,0 +1,45 @@
+.eventCard {
+  margin: 2rem;
+  padding: 2rem;
+  height: 18rem;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eceae7;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+  transition: 0.3s;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.eventTitle {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.eventDetails {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.eventDetails > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.eventLink {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 1px solid #eceae7;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+  transition: 0.3s;
+}
+
+.eventLink:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
