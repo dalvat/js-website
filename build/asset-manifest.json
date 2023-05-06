@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/js-website/static/css/main.16c6d067.css",
-    "main.js": "/js-website/static/js/main.529cd991.js",
+    "main.js": "/js-website/static/js/main.33cec3cb.js",
     "static/media/one-day-in-bethlehem.jpg": "/js-website/static/media/one-day-in-bethlehem.a32bd38870f721e99c08.jpg",
     "static/media/winnie-and-nelson.png": "/js-website/static/media/winnie-and-nelson.897560d7eb698ee0c9af.png",
     "static/media/a-man-of-good-hope.jpg": "/js-website/static/media/a-man-of-good-hope.261926c92059578f7e98.jpg",
     "static/media/jonny.jpg": "/js-website/static/media/jonny.7d9595f41ceeefc2e8fc.jpg",
     "index.html": "/js-website/index.html",
     "main.16c6d067.css.map": "/js-website/static/css/main.16c6d067.css.map",
-    "main.529cd991.js.map": "/js-website/static/js/main.529cd991.js.map"
+    "main.33cec3cb.js.map": "/js-website/static/js/main.33cec3cb.js.map"
   },
   "entrypoints": [
     "static/css/main.16c6d067.css",
-    "static/js/main.529cd991.js"
+    "static/js/main.33cec3cb.js"
   ]
 }

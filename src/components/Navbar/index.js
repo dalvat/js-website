@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbrand">
-        <h2 className="navtitle"><NavLinks to='/' name="Jonny Steinberg"/></h2>
+        <h2 className="navtitle"><NavLinks to='/js-website' name="Jonny Steinberg"/></h2>
       </div>
       <div className="linksdiv">
         <ul className="navlinks">
